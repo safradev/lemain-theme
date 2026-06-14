@@ -1,8 +1,8 @@
 {
   "name": "lemain-labs-theme",
   "displayName": "Lemain Labs Theme",
-  "description": "A warm dark VS Code and Cursor theme inspired by Lemain Labs.",
-  "version": "0.1.0",
+  "description": "A soft black VS Code and Cursor theme inspired by Lemain Labs and Android Studio.",
+  "version": "1.0.0",
   "publisher": "lemain-labs",
   "license": "MIT",
   "repository": {
@@ -26,17 +26,20 @@
     "lemain",
     "lemain labs",
     "orange",
-    "warm"
+    "soft black",
+    "android studio",
+    "darcula",
+    "minimal"
   ],
   "icon": "assets/icon.png",
   "galleryBanner": {
-    "color": "#070403",
+    "color": "#0B0D10",
     "theme": "dark"
   },
   "contributes": {
     "themes": [
       {
-        "label": "Lemain Labs Ember",
+        "label": "Lemain Labs Studio",
         "uiTheme": "vs-dark",
         "path": "./themes/lemain-labs-ember-color-theme.json"
       }

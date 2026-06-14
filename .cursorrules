@@ -5,5 +5,5 @@ Este repositório contém uma extensão de tema para VS Code/Cursor.
 - `package.json` declara a extensão, o tema contribuído e scripts de empacotamento.
 - `themes/` contém os temas JSON. Mantenha cores de UI, TextMate scopes e semantic tokens no mesmo arquivo do tema.
 - `assets/` contém ícones e recursos visuais da extensão.
-- A paleta principal vem do frontend em `../lemain-frontend`: fundo `#070403`, superfície `#0E0805`, acento `#FF6E00` e glow `#FF8B1F`.
+- A paleta atual adapta a marca Lemain para um soft black de leitura longa: fundo `#0B0D10`, superfície `#101317`, borda `#242A32` e acento `#FF7A1A`.
 - Prefira ajustes pequenos e consistentes com a identidade visual Lemain antes de adicionar novos temas.

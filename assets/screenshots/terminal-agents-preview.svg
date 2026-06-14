@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#11151A"/>
+      <stop offset="1" stop-color="#0B0D10"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="34" flood-color="#000000" flood-opacity="0.42"/>
+    </filter>
+  </defs>
+  <rect width="1440" height="900" fill="#0B0D10"/>
+  <text x="88" y="118" fill="#F4F7FA" font-family="Inter, system-ui, sans-serif" font-size="48" font-weight="800">Made for modern workflows</text>
+  <text x="90" y="160" fill="#9AA4AF" font-family="Inter, system-ui, sans-serif" font-size="21">Terminal, panels, quick input and agent surfaces feel like the same product.</text>
+  <g transform="translate(88 220)" filter="url(#shadow)">
+    <rect width="606" height="500" rx="22" fill="url(#panel)" stroke="#242A32"/>
+    <rect width="606" height="52" rx="22" fill="#101317"/>
+    <path d="M0 28h606v24H0z" fill="#101317"/>
+    <text x="28" y="33" fill="#F4F7FA" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800">Terminal</text>
+    <text x="518" y="33" fill="#FF9D45" font-family="Menlo, monospace" font-size="13">zsh</text>
+    <g font-family="Menlo, Monaco, monospace" font-size="16">
+      <text x="34" y="94" fill="#6AAB73">safra</text>
+      <text x="84" y="94" fill="#8D96A3">@</text>
+      <text x="99" y="94" fill="#57A6FF">lemain-theme</text>
+      <text x="224" y="94" fill="#8D96A3">%</text>
+      <text x="248" y="94" fill="#DCE3EA">npm run package</text>
+      <text x="34" y="138" fill="#9AA4AF">&gt; lemain-labs-theme@0.1.2 package</text>
+      <text x="34" y="176" fill="#57A6FF">INFO</text>
+      <text x="84" y="176" fill="#DCE3EA">Files included in the VSIX</text>
+      <text x="34" y="214" fill="#DCDCAA">theme</text>
+      <text x="86" y="214" fill="#8D96A3">./themes/lemain-labs-ember-color-theme.json</text>
+      <text x="34" y="252" fill="#6AAB73">DONE</text>
+      <text x="86" y="252" fill="#DCE3EA">Packaged lemain-labs-theme-0.1.2.vsix</text>
+      <text x="34" y="326" fill="#6AAB73">safra</text>
+      <text x="84" y="326" fill="#8D96A3">@</text>
+      <text x="99" y="326" fill="#57A6FF">lemain-theme</text>
+      <text x="224" y="326" fill="#8D96A3">%</text>
+      <text x="248" y="326" fill="#DCE3EA">cursor --install-extension theme.vsix</text>
+      <text x="34" y="370" fill="#6AAB73">success</text>
+      <text x="100" y="370" fill="#DCE3EA">Lemain Labs Studio is ready.</text>
+      <rect x="34" y="420" width="10" height="22" fill="#FF9D45"/>
+    </g>
+  </g>
+  <g transform="translate(746 220)" filter="url(#shadow)">
+    <rect width="606" height="500" rx="22" fill="#101317" stroke="#242A32"/>
+    <rect width="606" height="52" rx="22" fill="#11151A"/>
+    <path d="M0 28h606v24H0z" fill="#11151A"/>
+    <text x="28" y="33" fill="#F4F7FA" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800">Agents and Quick Input</text>
+    <rect x="32" y="82" width="542" height="72" rx="18" fill="#0B0D10" stroke="#242A32"/>
+    <circle cx="68" cy="118" r="17" fill="#171C22"/>
+    <text x="68" y="124" text-anchor="middle" fill="#FF9D45" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="800">L</text>
+    <text x="100" y="111" fill="#F4F7FA" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="800">Review this theme polish</text>
+    <text x="100" y="134" fill="#9AA4AF" font-family="Inter, system-ui, sans-serif" font-size="13">Soft contrast, readable tokens and clean surfaces.</text>
+    <rect x="32" y="182" width="542" height="188" rx="18" fill="#0B0D10" stroke="#242A32"/>
+    <text x="60" y="222" fill="#C9D1D9" font-family="Inter, system-ui, sans-serif" font-size="15">Suggested refinements</text>
+    <g font-family="Inter, system-ui, sans-serif" font-size="14">
+      <circle cx="66" cy="260" r="5" fill="#6AAB73"/>
+      <text x="84" y="265" fill="#DCE3EA">Keep panels quiet and consistent.</text>
+      <circle cx="66" cy="302" r="5" fill="#57A6FF"/>
+      <text x="84" y="307" fill="#DCE3EA">Use blue for functions and actions.</text>
+      <circle cx="66" cy="344" r="5" fill="#FF9D45"/>
+      <text x="84" y="349" fill="#DCE3EA">Reserve orange for brand focus.</text>
+    </g>
+    <rect x="32" y="400" width="542" height="58" rx="16" fill="#11151A" stroke="#2D3440"/>
+    <text x="60" y="435" fill="#858F9B" font-family="Inter, system-ui, sans-serif" font-size="15">Type a command or ask an agent...</text>
+    <rect x="462" y="412" width="92" height="34" rx="11" fill="#FF7A1A"/>
+    <text x="508" y="434" text-anchor="middle" fill="#090B0E" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="800">Send</text>
+  </g>
+  <g transform="translate(212 778)" font-family="Inter, system-ui, sans-serif">
+    <rect width="1016" height="56" rx="18" fill="#11151A" stroke="#242A32"/>
+    <text x="34" y="36" fill="#9AA4AF" font-size="15">Designed for devs who want a dark theme that feels polished, calm and unmistakably Lemain.</text>
+    <circle cx="938" cy="28" r="7" fill="#FF7A1A"/>
+    <circle cx="964" cy="28" r="7" fill="#57A6FF"/>
+    <circle cx="990" cy="28" r="7" fill="#6AAB73"/>
+  </g>
+</svg>
