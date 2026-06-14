@@ -1,17 +1,17 @@
 {
   "name": "lemain-labs-theme",
   "displayName": "Lemain Labs Theme",
-  "description": "A soft black VS Code and Cursor theme inspired by Lemain Labs and Android Studio.",
-  "version": "1.0.0",
+  "description": "Lemain Studio, Studio Light and Studio Midnight themes for VS Code/Cursor.",
+  "version": "1.1.0",
   "publisher": "lemain-labs",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lemain/lemain-theme.git"
+    "url": "https://github.com/safradev/lemain-theme.git"
   },
   "homepage": "https://lemain-labs.com",
   "bugs": {
-    "url": "https://github.com/lemain/lemain-theme/issues"
+    "url": "https://github.com/safradev/lemain-theme/issues"
   },
   "engines": {
     "vscode": "^1.90.0"
@@ -29,7 +29,14 @@
     "soft black",
     "android studio",
     "darcula",
-    "minimal"
+    "minimal",
+    "vscode",
+    "cursor",
+    "light theme",
+    "midnight theme",
+    "lemain studio",
+    "lemain studio light",
+    "lemain studio midnight"
   ],
   "icon": "assets/icon.png",
   "galleryBanner": {
@@ -39,9 +46,19 @@
   "contributes": {
     "themes": [
       {
-        "label": "Lemain Labs Studio",
+        "label": "Lemain Studio",
         "uiTheme": "vs-dark",
         "path": "./themes/lemain-labs-ember-color-theme.json"
+      },
+      {
+        "label": "Lemain Studio Light",
+        "uiTheme": "vs",
+        "path": "./themes/lemain-studio-light-color-theme.json"
+      },
+      {
+        "label": "Lemain Studio Midnight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lemain-studio-midnight-color-theme.json"
       }
     ]
   },

@@ -11,7 +11,7 @@
   <rect width="1440" height="900" fill="url(#bg)"/>
   <circle cx="1160" cy="90" r="240" fill="#FF7A1A" opacity="0.08"/>
   <circle cx="200" cy="780" r="260" fill="#57A6FF" opacity="0.05"/>
-  <text x="92" y="118" fill="#F4F7FA" font-family="Inter, system-ui, sans-serif" font-size="54" font-weight="800">Lemain Labs Studio</text>
+  <text x="92" y="118" fill="#F4F7FA" font-family="Inter, system-ui, sans-serif" font-size="54" font-weight="800">Lemain Studio</text>
   <text x="94" y="164" fill="#9AA4AF" font-family="Inter, system-ui, sans-serif" font-size="22">Soft black. Minimal. Built for long coding sessions.</text>
   <g transform="translate(92 220)" filter="url(#shadow)">
     <rect width="1256" height="572" rx="22" fill="#090B0E"/>

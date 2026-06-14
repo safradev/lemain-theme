@@ -1,26 +1,32 @@
 # Lemain Labs Theme
 
-Soft black theme for VS Code and Cursor, designed for developers who want something cleaner than generic dark themes and more restrained than neon palettes.
+Three themes for VS Code and Cursor inspired by Lemain Labs: `Lemain Studio`, `Lemain Studio Light` and `Lemain Studio Midnight`.
 
-`Lemain Labs Studio` combines Android Studio/Darcula-style readability with the Lemain Labs orange accent. The result is dark, minimal and comfortable for long sessions.
+The collection is built around clean surfaces, strong readability and a controlled orange accent that highlights what matters without turning the editor noisy. Use the soft black Studio theme as the main experience, switch to Light for bright environments, or pick Midnight when you want a more vivid dark editor.
 
-![Lemain Labs Studio editor preview](assets/screenshots/editor-preview.png)
+![Lemain Studio editor preview](https://raw.githubusercontent.com/safradev/lemain-theme/main/assets/screenshots/editor-preview.png)
 
-## Why Install
+## Themes
 
-- Soft black surfaces reduce visual fatigue without turning the editor flat.
-- Syntax colors are balanced for real code: blue functions, green strings, soft yellow types, dry orange keywords and calm gray variables.
-- Lemain orange is reserved for focus, activity, actions and important keys.
-- Cursor panels, sidebars, quick input and agent-adjacent surfaces keep the same visual rhythm.
-- Works well across JavaScript, TypeScript, JSX/TSX, Java, PHP, C, C++, Go, Python, JSON, CSS/SCSS and Markdown.
+- `Lemain Studio`: the main Lemain theme. Soft black, minimal, balanced and optimized for everyday coding.
+- `Lemain Studio Light`: a clean light variant with Lemain orange, low-noise surfaces and strong code contrast.
+- `Lemain Studio Midnight`: a slightly brighter and more vivid dark variant, closer to a modern midnight editor style.
 
-## Terminal and Agents
+## Why Use It
 
-The UI avoids noisy borders and heavy highlights. Terminal colors, quick input, panels and Cursor surfaces use the same palette, so the theme feels cohesive when switching between coding, running commands and working with agents.
+- Balanced syntax: blue functions, green strings, soft yellow types, dry orange keywords and calm gray variables.
+- Strong JSON readability: keys such as `menu.selectionForeground` are emphasized so configuration files are easier to scan.
+- Quiet chrome: tabs, panels, sidebars, terminal and quick input stay consistent without heavy borders.
+- Cursor friendly: agent-adjacent surfaces, panels and command inputs follow the same visual rhythm.
+- Broad language coverage: JavaScript, TypeScript, JSX/TSX, Java, PHP, C, C++, Go, Python, JSON, CSS/SCSS and Markdown.
 
-![Lemain Labs Studio terminal and agents preview](assets/screenshots/terminal-agents-preview.png)
+## Interface Preview
 
-## Palette
+Terminal colors, quick input, panels and Cursor surfaces share the same palette. The theme feels cohesive when switching between coding, running commands and working with agents.
+
+![Lemain Studio terminal and agents preview](https://raw.githubusercontent.com/safradev/lemain-theme/main/assets/screenshots/terminal-agents-preview.png)
+
+## Main Palette
 
 - Background: `#0B0D10`
 - Surface: `#101317`
@@ -35,7 +41,7 @@ The UI avoids noisy borders and heavy highlights. Terminal colors, quick input, 
 
 ## Recommended Editor Feel
 
-The theme controls colors, contrast and visual states. Spacing, line height and padding are editor settings. This setup pairs well with the theme:
+The theme controls colors, contrast and visual states. Spacing, line height and padding are editor settings. This setup pairs well with all variants:
 
 ```json
 {
@@ -53,29 +59,20 @@ The theme controls colors, contrast and visual states. Spacing, line height and 
 }
 ```
 
-## Install Locally
+## Usage
+
+1. Open `Preferences: Color Theme`.
+2. Select `Lemain Studio`, `Lemain Studio Light` or `Lemain Studio Midnight`.
+3. Use the recommended editor settings above if you want the same spacing used during theme tuning.
+
+## Local Install
+
+Install a generated `.vsix` manually:
 
 ```sh
-npm install
-npm run package
+cursor --install-extension lemain-labs-theme-1.1.0.vsix
 ```
 
-Then install the generated `.vsix`:
+## Source Code
 
-```sh
-cursor --install-extension lemain-labs-theme-1.0.0.vsix
-```
-
-Select `Lemain Labs Studio` from `Preferences: Color Theme`.
-
-## Development
-
-Open this repository in VS Code or Cursor and press `F5` to launch an Extension Development Host.
-
-## Publishing
-
-```sh
-npm run publish
-```
-
-Before publishing, confirm the `publisher` in `package.json` matches the real Marketplace publisher.
+Source, issues and releases are available at [github.com/safradev/lemain-theme](https://github.com/safradev/lemain-theme).

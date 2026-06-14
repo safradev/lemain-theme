@@ -1,10 +1,21 @@
 # Changelog
 
+## 1.1.0
+
+- Added `Lemain Studio Light`.
+- Added `Lemain Studio Midnight`.
+- Renamed the main theme to `Lemain Studio`.
+- Improved JSON key highlighting for configuration files.
+- Reworked README for usage, variants, qualities and palette guidance.
+- Updated source repository and issue tracker links to `safradev/lemain-theme`.
+- Switched README preview images to absolute GitHub Raw URLs for Marketplace rendering.
+- Updated Marketplace and README descriptions to present all three themes clearly.
+
 ## 1.0.0
 
 - First official Marketplace release.
 - Finalized README details for the remaining preview images.
-- Stabilized Lemain Labs Studio as the default theme.
+- Stabilized Lemain Studio as the default theme.
 
 ## 0.1.3
 
