@@ -1,0 +1,52 @@
+{
+  "name": "lemain-labs-theme",
+  "displayName": "Lemain Labs Theme",
+  "description": "A warm dark VS Code and Cursor theme inspired by Lemain Labs.",
+  "version": "0.1.0",
+  "publisher": "lemain-labs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lemain/lemain-theme.git"
+  },
+  "homepage": "https://lemain-labs.com",
+  "bugs": {
+    "url": "https://github.com/lemain/lemain-theme/issues"
+  },
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "cursor",
+    "lemain",
+    "lemain labs",
+    "orange",
+    "warm"
+  ],
+  "icon": "assets/icon.png",
+  "galleryBanner": {
+    "color": "#070403",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lemain Labs Ember",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lemain-labs-ember-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.6.4"
+  }
+}
